@@ -45,6 +45,9 @@ void setup() {
   }
   // Add your MidiSequence classes here
   boxes[0][0].ms = new MidiSequence_B1(buses);
+  boxes[1][0].ms = new MidiSequence_B2(buses);
+  boxes[2][0].ms = new MidiSequence_B3(buses);
+  boxes[3][0].ms = new MidiSequence_B4(buses);
 }
 
 // Draw loop
